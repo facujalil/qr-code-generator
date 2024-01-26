@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/app.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/c8859f7b0c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>QR Code Generator</title>
+  </head>
+
+  <body>
+    <main>
+      <section>
+        <h1>QR Code Generator</h1>
+        <form>
+          <input
+            type="text"
+            id="input"
+            autocomplete="off"
+            placeholder="Enter Your Text/Link Here"
+          />
+          <select id="select">
+            <option>100x100</option>
+            <option>150x150</option>
+            <option>200x200</option>
+            <option>250x250</option>
+            <option>300x300</option>
+          </select>
+          <div class="qr-container hidden"></div>
+          <button class="generate-button">Generate</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; Coded by
+        <a href="https://github.com/facujalil" target="_blank"
+          >Facundo Jalil<i class="fab fa-github-square" aria-hidden="true"></i
+        ></a>
+      </p>
+    </footer>
+  </body>
+</html>
