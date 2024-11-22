@@ -64,7 +64,7 @@ form {
   font-size: 1.1em;
   font-family: "Jost", sans-serif;
   border: none;
-  outline: 1px solid rgb(0, 0, 0, 0.2);
+  outline: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 #input {
